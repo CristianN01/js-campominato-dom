@@ -1,0 +1,75 @@
+
+
+header{
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.boolean{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div > img{
+    width: 65px;
+}
+
+div > button.play{
+    margin-right: 2rem;
+    padding: 0.25rem 2rem;
+    background-color: brown;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+main{
+    background-color: brown;
+}
+
+
+.container{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+section.container article.cell{
+    border: 2px solid white;
+}
+
+
+section.container > article.cell{
+    width: calc((100% / 10) - 4px);
+    height: calc((100% / 10) - 4px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section.container > article.active{
+    background-color: orange;
+}
+
+section.container > h1{
+    align-self: center;
+    margin: 0 auto;
+    color: white;
+}
