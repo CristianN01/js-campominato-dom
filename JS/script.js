@@ -24,11 +24,23 @@ playButton.addEventListener('click', function(){
 const bomb =[];
 const numbersList = [];
 
-function randomNumber(min, max) {
+function randomNumberInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
+function getUnicRandomN(uninvited, min, max){
+    let unicNumber;
+    let found = false;
 
+    while(!found){
+        unicNumber = randomNumberInt(min, max);
+        if(uninvited.includes(unicNumberNumber) !== false){
+            found = true;
+        }
+    }
+
+    return unicNumber
+}
 
 
 
