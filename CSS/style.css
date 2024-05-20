@@ -38,6 +38,9 @@ main{
     background-color: brown;
 }
 
+.br_green{
+    background-color: green;
+}
 
 .container{
     padding: 2rem;
@@ -64,8 +67,8 @@ section.container > article.cell{
     text-align: center;
 }
 
-section.container > article.active{
-    background-color: orange;
+section.container > article.safe{
+    background-color: rgb(0, 252, 21);
 }
 
 section.container > h1{
