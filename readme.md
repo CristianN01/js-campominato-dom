@@ -25,3 +25,7 @@ BONUS:
 > Ad esempio: Di cosa ho bisogno per generare i numeri? Proviamo sempre prima con dei console.log() per capire se stiamo ricevendo i dati giusti.
 
 > Le validazioni e i controlli possiamo farli anche in un secondo momento.
+
+<!-- SCOMPONIAMO IL PROBLEMA  -->
+
+1 creo un array vuoto dove ci saranno le sedici bombe generate con numero randomico 
