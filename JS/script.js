@@ -1,6 +1,6 @@
 const gridContainer = document.querySelector('section.container')
 const playButton = document.querySelector('button.play')
-
+const punteggio = document.querySelector('span')
 // ? <article class="cell"></article>
 
 playButton.addEventListener('click', function(){
@@ -39,6 +39,7 @@ function Game() {
             {
                 cellElement.classList.add('safe')
                 score++;
+                punteggio.textContent = score;
             }
             console.log(index + 1)
             console.log('il tuo punteggio e:' +' '+ score)
@@ -54,6 +55,8 @@ function Game() {
         }
     }
     console.log(bombs_array);
+    
+
 }
 
 function randomNumberInt(min, max) {
