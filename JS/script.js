@@ -25,10 +25,15 @@ function Game() {
                 return
             }
             if( bombs_array.includes(index + 1)){
-                cellElement.classList.add("bomb");
+                cellElement.classList.add('bomb');
+                let square = document.getElementsByClassName('cell')
+                for (let index = 0; index < bombs_array.length; index++) {
+                    let num = bombs_array[index] - 1;
+                square[num].classList.add('bomb')
+                    
+                }
                 gameOver = true;
                 alert ('HAI PERSO')
-                
             }
             else
             {
